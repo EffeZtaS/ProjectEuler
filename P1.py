@@ -21,4 +21,5 @@ def mcm(a,b):
 def P1(n,a,b):
     return suma(n,a)+suma(n,b)-suma(n,mcm(a,b))
 
-print(P1(10000,3,5))
+print(P1(1000,3,5))
+#Respuesta 2318
